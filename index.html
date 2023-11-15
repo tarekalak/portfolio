@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tarek Alakrami</title>
+</head>
+<body >
+    <div class="background">
+        <div class="rgb">
+    <header>
+        <div class="navbar navbar-expand-lg navbar-dark text-white">
+            <div class="container">
+
+                <button class="navbar-toggler" id="btnmenu" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span class="navbar-toggler-icon"></span></button>
+
+                <a href="file/TAREK_ALAKRAMI .pdf"  class="navbar-brand " id="logo">tarek <span class="redColor">Alakrami</span></a>
+                <div class="collapse navbar-collapse" id="mainmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="navitem mx-2"><a href="#" class="nav-link" data-tran="home">Home</a></li>
+                        <li class="navitem mx-2"><a href="#about" class="nav-link" data-tran="aboutMe">About me</a></li>
+                        <li class="navitem mx-2"><a href="#skills" class="nav-link" data-tran="skills">Skills</a></li>
+                        <li class="navitem mx-2"><a href="#education" class="nav-link" data-tran="education">Education</a></li>
+                        <li class=" nav-item dropdown">
+                            <select class="navitem nav-link dropdown-toggle text-danger" id="tran" >
+                               
+                            
+                            <div class=" dropdown-menu" aria-labelledby="navbarDropdown">
+                                <option  value="" data-tran="lang" selected>language</option>
+                              <option  class="text-black" value="en">English</option>
+                              <option  class="text-black" value="ar">العربية</option>
+                            </div>
+                        </select>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner"></div>
+
+    <!-- PROFILE -->
+
+    <section id="profile" class=" text-light text-center  py-5">
+            <div class="container mb-5">
+                <h4 >Hello, My name is</h4>
+                <div><h1>Tarek <span class="redColor">Alakrami</span></h1></div>
+                <h3 >I am a <span class="work d-block pt-3">wab <span class="redColor">devoloper</span></span></h3>
+                <div class="my-3">
+                    <a href="file/TAREK_ALAKRAMI .pdf" download class="p-2 btn btn-outline-danger mt-3 mx-5 text-white border-white " data-tran="cv">Dwonload CV</a>
+                </div>
+                <div>
+                    <a href="#conect" class="p-2 btn btn-outline-danger mt-3 mx-5 mb-2 text-white border-white " data-tran="connect"> Connect Me</a>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</div>
+<br id="about">
+<section >
+    <div class="container aboutMe" >
+        <div class="d-block d-md-flex text-center text-md-start">
+            <img class=" d-md-block  myImg"  src="imgs/DSC_0013.jpg" onclick="Img(this)"  alt="">
+            <div class="m-5">
+                <h2 data-tran="tarekakrami">Tarek Alakrami</h2>
+                <h4 class="redColor" data-tran="engineer">Software Engineer - back-end development</h4>
+                <p data-tran="howAmI">I am studying software engineering at the moment and am heading into the field of back-end development. I have built many projects in this field.</p>
+                <div class="text-start my-1"><i class="fa  fa-location-arrow text-danger" style="color: var(--brimary-color);"></i><strong data-tran="from"> from & Lives In :</strong><span data-tran="place"> Dimashq Governorate, Syria</span></div>
+                <div class="text-start my-1"><i class="fa fa-user text-danger"></i><strong data-tran="age"> Age :</strong>21</div>
+                <div class="text-start my-1"><i class="fa fa-male text-danger"></i><strong data-tran="gender"> Gender :</strong><span data-tran="male">Male</span></div>
+                <div class="text-start my-1"><i class="fa fa-language text-danger"></i><strong data-tran="lang"> language :</strong><span data-tran="ar_en">Arabic & English</span></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<hr class="container mt-5" id="skills">
+    
+<!-- SKILLS -->
+
+<section >
+    <div class="skills container text-start text-md-center p-5" ">
+        <h1 class="text-center mb-4" data-tran="skills">My Skills</h1>
+        <div class="d-md-flex d-block">
+            <div class="mx-5  my-3">
+                <h4 class="mb-md-5">Front-<span class="redColor">End</span> :</h4>
+                <div class="front d-flex  d-md-block text-md-center">
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">HTML</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">CSS</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">JS</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">BootStrap</h6>
+                </div>
+            </div>
+
+            <div class="mx-5 my-3">
+                <h4 class="mb-md-5">back-<span style="color: rgb(0, 155, 0);">End</span> :</h4>
+                <div class="back d-flex d-md-block text-md-center">
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">php</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">Laravel_MVC</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">My SQL</h6>
+                </div>
+            </div>
+
+            <div class="mx-5  my-3">
+                <h4 class="mb-md-3">Programming<span style="color: rgb(19, 7, 189);" class="d-md-block"> Languages :</span> </h4>
+                <div class="programingLang d-flex d-md-block text-md-center">
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">C++</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">Java</h6>
+                </div>
+            </div>
+
+            <div class="mx-5  my-3">
+                <h4 class="mb-md-5">Other <span style="color: #111111;"> skills :</span> </h4>
+                <div class="other d-flex d-md-block text-md-center">
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3">ICDL</h6>
+                    <h6 class="p-2 p-md-3 mx-1 my-md-3" data-tran="speed">Speed ​​in learning</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br id="education">
+<hr class="container mt-5 text-center text-md-start" >
+
+
+<!-- Education & Experience -->
+
+<section class="edExp">
+    <div class="container">
+        <h2 class="my-3 mt-5 text-center" data-tran="education">Education :</h2>
+            <div class="d-block d-sm-flex text-center text-sm-start mb-5">
+                
+                        <div class="mx-sm-3 p-3 w-100 Education">
+                            <h4 data-tran="SE"><u>Software Engineer</u></h4>
+                            <span class="redColor" data-tran="Jazeera">Al Jazeera Private University</span>
+                            <p data-tran="jazeeraInfo">I am still studying IT Engineering at Gezira Private University and I am currently in my third year.</p>
+                        </div>
+
+                        <div class=" mx-sm-3 p-3 w-100 Education ms-md-auto">
+                            <h4 data-tran="fullStack"><u>FULL STACK DEVELOPER</u></h4>
+                            <span class="redColor" data-tran="society">Syrian Computer Society Training & Formation</span>
+                            <span class="redColor">12/03/2023 – 30/05/2023</span>
+                            <p data-tran="societyInfo">I have been trained in organization, but my interest is backend development.</p>
+                        </div>
+
+                
+            </div>
+
+            <h2 class="my-3 mt-5 text-center mb-5" data-tran="experience">Experience :</h2>
+            <div class="d-block d-sm-flex text-center text-sm-start mb-5">
+                        <div class=" mx-sm-3 p-3 w-100 Experience">
+                            <h4 data-tran="freelance"><u>Freelance Web Developer</u></h4>
+                            <span class="redColor">2023</span>
+                            <p data-tran="FreelanceInfo">Startrd working on real project in this year.</p>
+                        </div>
+
+                        <div class=" mx-sm-3 p-3 w-100 Experience ms-md-auto">
+                            <h4 data-tran="training"><u>Training at Al Mounkez</u></h4>
+                            <span class="redColor" data-tran="atNow">2023/10/10 - At Now</span>
+                            <p data-tran="trainingInfo">I started training in this company and they are now helping me to develop my programming skills.</p>
+                        </div>
+            </div>
+    </div>
+</section>
+
+<hr class="container">
+
+<section class="my-5">
+    <div class="container">
+        <h1 class="text-center" data-tran="plane">My plan for the future</h1>
+        <div class="row">
+
+            <article class="article col-sm-4">
+                <h3 class="article-title" data-tran="react">Learn React</h3>
+                <span class="redColor" data-tran="soon">SOON</span>
+                <hr>
+                <p data-tran="reactInfo">In order for the site to be flexible, you must learn one of the JavaScript frameworks.</p>
+            </article>
+
+            <article class="article col-sm-4">
+                <h3 class="article-title" data-tran="laravel">Learn Laravel APIs</h3>
+                <span class="redColor" data-tran="soon">SOON</span>
+                <hr>
+                <p data-tran="laravelInfo">In order to be able to deal with mobile applications, you must learn the APIs</p>
+            </article>
+
+            <article class="article col-sm-4">
+                <h3 class="article-title" data-tran="market">Getting started in the labor market</h3>
+                <span class="redColor" data-tran="soon">SOON</span>
+                <hr>
+                <p data-tran="marketInfo">In order to develop your skills effectively, you should get a job in a company and start working on real projects. </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer class="footer bg-dark text-white p-5" id="conect">
+    <div class="container text-center text-md-start">
+        <div class=" d-block d-md-flex">     
+
+            <div class=" mb-5 " >
+                <h4 class="" data-tran="followMe">follow me</h4>
+                    <div><a href=""><i class="social fa  fa-facebook" style="color: rgb(4, 4, 192);"> Facebook</i> </a></div>
+                    <div><a href=""><i class="social fa  fa-instagram " style="color: rgb(146, 6, 104);"> Instagram</i> </a></div>
+                    <div><a href="https://github.com/tarekalak"><i class="social fa fa-github " style="color: white;"> Github</i> </a></div>
+            </div>
+            <div class=" ms-auto ">
+                <h4 data-tran="connect">connect me</h4>
+                <div ><i class="social fa  fa-phone "><a href="+963993880485" class="text-white text-decoration-none "> +963993880485 </a></i></div>
+                <div ><i class="social fa  fa-envelope-o "><a href="tarikalakrami2003@gmail.com" style="font-size: 20px;" class="mx-2 text-start text-white text-decoration-none ">tarikalakrami2003@gmail.com</a></i></div>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <h5 data-tran="Copyright">Copyright ©2023. All right reserved</h5>
+            <br>
+            <h5 data-tran="design">Designed by : Tarek Alakrami</h5>
+        </div>
+    </div>
+       
+
+</footer >    
+
+
+sc
+<script src="assets/js/bootstrap.min.js"></script>    
+<script src="assets/js/Translation.js"></script>
+<script src="assets/js/script.js"></script>    
+</body>
+</html>

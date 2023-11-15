@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'open sans','helvetica','Arial',sans-serif;
+    
+}
+:root{
+    --primary-color: #fd022c;
+    --light-color:#ffffff;
+
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    transition: 0.6s;
+    padding-bottom:25px ;
+    padding-top:25px ;
+    z-index: 10000;
+  
+}
+header ul{
+    transition: 0.5s;
+}
+header ul li{
+transition: 0.5s;
+}
+
+/* Navbar */
+
+header.sticky{
+    padding: 0;
+    background: #fff;
+   
+}
+
+.navitem{
+    position: relative;
+    letter-spacing: 2px;
+    transition: .7s;
+    border-radius: 30px;
+}
+
+.navitem :hover{
+ color:var(--primary-color) ;
+ background-color: white;
+ border-radius: 30px;
+ transition: .6s;
+ 
+}
+header.sticky .navitem :hover{
+ color:white ;
+ background-color: var(--primary-color);
+ border-radius: 7px;
+ padding-left: 5px;
+
+}
+
+#btnmenu{
+    border: 2px solid black;
+}
+
+.banner{
+    width: 100%;
+    height: 20vh;
+        background-size: cover;
+}
+
+header.sticky ,header.sticky ul li a,header.sticky #logo,header.sticky select{
+    color: #000;
+}
+
+#logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: 0.4S;
+}
+
+#logo span{
+    color:var(--primary-color)
+}
+
+
+/* PROFAILE */
+
+.myImg{
+    border-radius: 100px;
+    border: 2px solid var(--primary-color);
+    width: 300px;
+    text-align: center;
+}
+
+#profile{
+    display:flex ;
+    align-items: center;
+}
+
+#profile h4{
+    font-size: 20px;
+}
+
+#profile h1{
+    font-size: 3.65rem;
+    margin: 1.7rem 0;
+    text-transform: uppercase;
+
+}
+
+
+#profile h3{
+    font-size: 150%;
+}
+
+#profile h3 span{
+    text-transform:uppercase ;
+    font-size: 30px;
+    justify-content: center;
+}
+
+#profile a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 90%;
+    transition: .3s;
+}
+
+#profile a:hover{
+    color:var(--primary-color)
+}
+
+
+.background{
+    background: url(../../imgs/photo_٢٠١٧-٠٧-٢٩_٠٣-٣٨-٤١.jpg);
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+.rgb{
+    background-color: rgba(24, 21, 20, 0.849);
+}
+
+.aboutMe{
+    margin-top: 150px;
+}
+
+.redColor{
+    color: var(--primary-color);
+}
+
+/* Skills */
+
+
+.front h6{
+    color: var(--light-color);
+    background-color:var(--primary-color) ;
+    border-radius: 15px;
+
+}
+
+.back h6{
+    color: var(--light-color);
+    background-color: rgba(17, 105, 17, 0.76); ;
+    border-radius: 15px;
+
+}
+
+.programingLang h6{
+    color: var(--light-color);
+    background-color:rgba(19, 7, 189, 0.815) ;
+    border-radius: 15px;
+
+}
+
+.other h6{
+    color: var(--light-color);
+    background-color:#000000c7 ;
+    border-radius: 15px;
+
+}
+
+/* Education */
+.Education{
+    background: #fd022c23;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/* Experience */
+
+.Experience{
+    background: #1302fd3d;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+
+.edExp{
+    margin-bottom: 110px;
+}
+
+
+.article{
+
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    transition: all .2s ease-in;
+    margin-top: 20px;
+}
+
+
+.article:hover{
+    background-color: #fd022c2d;
+    transform: scale(1.1);
+    box-shadow: 0 0 7px var(--primary-color);
+    
+}
+/* footer */
+.footer{
+    margin-top: 200px;
+}
+.social{
+    transition:.4s ;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social:hover{
+  transform: scale(1.1);
+}
+
